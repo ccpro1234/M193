@@ -804,7 +804,7 @@ body::after{
 
 <div id="expiredScreen">
     <h1>⛔ โปรแกรมหมดอายุการใช้งาน</h1>
-    <h2>หมดอายุวันที่ 8 เมษายน พ.ศ. 2569</h2>
+    <h2>หมดอายุวันที่ 15 เมษายน พ.ศ. 2569</h2>
 </div>
 
 <div id="loginScreen" style="
@@ -880,7 +880,7 @@ font-size:12px;
 opacity:.7;
 margin-top:4px;
 ">
-หมดอายุ: 8 เมษายน พ.ศ. 2569
+หมดอายุ: 15 เมษายน พ.ศ. 2569
 </div>
 
 
@@ -969,7 +969,7 @@ margin-top:4px;
 <script>
 /* ===== EXPIRY ===== */
 (function(){
-    const exp=new Date("2026-04-08T00:00:00+07:00");
+    const exp=new Date("2026-04-15T00:00:00+07:00");
     if(new Date()>=exp){
         expiredScreen.style.display="flex";
         document.querySelector(".mainWrap").style.display = "none";
